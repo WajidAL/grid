@@ -13,7 +13,7 @@ body{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 3.75fr 8.75fr 1fr 8.75 3.75fr;
+  grid-template-columns: 3.75fr 8.75fr 1fr 8.75fr 3.75fr;
   grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh ;
 
 }
@@ -38,8 +38,8 @@ body{
   padding: 9px;
   background-color:#97bc27;
   border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 3/4;
+  grid-column: 1/4;
+  grid-row: 3/6;
 }
 
 #container .Texto 2{
@@ -47,7 +47,7 @@ body{
   background-color:#ff9800;
   border-radius: 5px;
   grid-column: 2/3;
-  grid-row: 6/7;
+  grid-row: /5;
 }
 
 #container .imagen 2{
@@ -70,8 +70,8 @@ body{
   padding: 9px;
   background-color:#ff98ff;
   border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 #container .Texto 4{
