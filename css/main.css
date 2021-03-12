@@ -13,8 +13,10 @@ body{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 3.75fr 8.75fr 1fr 8.75fr 3.75fr;
-  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh ;
+  grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
+  grid-template-rows: 10vh 5vh 30vh 5vh 30vh 5vh 10vh;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 
 }
 
@@ -26,7 +28,7 @@ body{
   grid-row: 1/2;
 }
 
-#container .Texto 1{
+#container .Texto1{
   padding: 9px;
   background-color:#596ac3;
   border-radius: 5px;
@@ -34,31 +36,29 @@ body{
   grid-row: 2/3;
 }
 
-#container .imagen 1{
+#container .imagen1{
   padding: 9px;
-  background-color:#97bc27;
   border-radius: 5px;
-  grid-column: 1/4;
-  grid-row: 3/6;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
-#container .Texto 2{
+#container .Texto2{
   padding: 9px;
   background-color:#ff9800;
   border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: /5;
+  grid-column: 4/3;
+  grid-row: 4/4;
 }
 
-#container .imagen 2{
+#container .imagen2{
   padding: 9px;
-  background-color:#ff3700;
   border-radius: 5px;
-  rid-column: 2/3;
+  rid-column: 3/4;
   grid-row: 5/6;
 }
 
-#container .Texto 3{
+#container .Texto3{
   padding: 9px;
   background-color:#459800;
   border-radius: 5px;
@@ -66,21 +66,27 @@ body{
   grid-row: 4/5;
 }
 
-#container .imagen 3{
+#container .imagen3{
   padding: 9px;
-  background-color:#ff98ff;
   border-radius: 5px;
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 5/6;
 }
 
-#container .Texto 4{
+#container .Texto4{
   padding: 9px;
   background-color:#023300;
   border-radius: 5px;
-  grid-column: 6/7;
-  grid-row: 4/5;
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
+
+#container .imagen4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  }
 
 #container .pie{
   grid-row: 7/8;
