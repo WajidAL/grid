@@ -86,8 +86,27 @@ body{
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 3/4;
-  }
+}
 
 #container .pie{
   grid-row: 7/8;
   grid-column: 1/6;
+  }
+
+  }
+  #container .imagen1 images{
+    width: 100%;
+    height: 100%;
+  }
+  #container .imagen2 images{
+    width: 100%;
+    height: 100%;
+  }
+  #container .imagen3 images{
+    width: 100%;
+    height: 100%;
+  }
+  #container .imagen4 images{
+    width: 100%;
+    height: 100%;
+  }
