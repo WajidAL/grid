@@ -92,8 +92,8 @@ body{
 
 #container .pie{
   grid-row: 7/8;
-  grid-column: 1/6;
-  font-size:100px;
+  grid-column: 2/6;
+  font-size:300px;
 }
 
 #container .imagen1 img{
