@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #000000;
+  color:RED;
+}
+
+#container{
+  display:grid;
+  grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
+  grid-template-rows: 10vh 5vh 30vh 5vh 30vh 5vh 10vh;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container .cabeçera{
+  padding: 9px;
+  background-color:#FFFFFF;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 1/2;
+  font-size:53px;
+}
+
+#container .Texto1{
+  padding: 9px;
+  background-color:#596ac3;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size:53px;
+}
+
+#container .imagen1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#container .Texto2{
+  padding: 9px;
+  background-color:#ff9800;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  font-size:53px;
+}
+
+#container .imagen2{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#container .Texto3{
+  padding: 9px;
+  background-color:#459800;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size:53px;
+}
+
+#container .imagen3{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+#container .Texto4{
+  padding: 9px;
+  background-color:#023300;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  font-size:60px;
+}
+
+#container .imagen4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#container .pie{
+  grid-row: 7/8;
+  grid-column: 2/6;
+  font-size:300px;
+}
+
+#container .imagen1 img{
+  width: 100%;
+  height:101%;
+}
+#container .imagen2 img{
+  width: 101%;
+  height: 101%;
+}
+#container .imagen3 img{
+  width: 100%;
+  height: 101%;
+}
+#container .imagen4 img{
+  width: 101%;
+  height: 101%;
+}
