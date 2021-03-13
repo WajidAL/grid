@@ -46,8 +46,8 @@ body{
   padding: 9px;
   background-color:#ff9800;
   border-radius: 5px;
-  grid-column: 4/3;
-  grid-row: 4/4;
+  grid-column: 3/4;
+  grid-row: 4/5;
   font-size:53px;
 }
 
@@ -98,17 +98,17 @@ body{
 
 #container .imagen1 img{
   width: 100%;
-  height:100%;
+  height:101%;
 }
 #container .imagen2 img{
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
 }
 #container .imagen3 img{
   width: 100%;
-  height: 100%;
+  height: 101%;
 }
 #container .imagen4 img{
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
 }
