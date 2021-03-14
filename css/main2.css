@@ -5,8 +5,11 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #000000;
+  background-color: #FFFFFF;
   color:RED;
+  background-image: url("../images/BACK-B.png");
+  background-size:cover;
+
 }
 
 #container{
@@ -17,13 +20,40 @@ body{
   grid-row-gap: 10px;
 }
 
+
 #container .cabeçera{
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 1/2;
-  font-size:53px;
+  font-size:23px;
+  background-image: url("../images/RECTA.jpg");
+  text-align:center;
+  text-indent:35px;
+  text-decoration:underline
+  animation:blur 2s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+    0px 0px 7px #ff0000;
+  text-shadow:0px 0px 10px #fff,
+       0px 0px 10px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 50px #fff,
+       0px 0px 50px #fff,
+       0px 0px 50px #009921,
+       0px 0px 150px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px -10px 100px #009921
+       0px -10px 100px #009921;
+
 }
 
 #container .Texto1{
@@ -32,7 +62,7 @@ body{
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 2/3;
-  font-size:53px;
+  font-size:13px;
 }
 
 #container .imagen1{
@@ -40,60 +70,59 @@ body{
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 3/4;
-}
-
-#container .Texto2{
-  padding: 9px;
-  background-color:#ff9800;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 4/5;
-  font-size:53px;
+  background-color:#ff0066;
 }
 
 #container .imagen2{
   padding: 9px;
   border-radius: 5px;
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 5/6;
+  background-color:#ff0066;
 }
 
 #container .Texto3{
   padding: 9px;
-  background-color:#459800;
+  background-color:#ff9800;
   border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 4/5;
-  font-size:53px;
-}
-
-#container .imagen3{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 5/6;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-size:25px;
 }
 
 #container .Texto4{
   padding: 9px;
-  background-color:#023300;
+  background-color:#ff9800;
   border-radius: 5px;
   grid-column: 3/4;
-  grid-row: 2/3;
-  font-size:60px;
-}
-
-#container .imagen4{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 5/6;
+  font-size:30px;
 }
 
 #container .pie{
   grid-row: 7/8;
-  grid-column: 2/6;
-  font-size:300px;
+  grid-column: 2/3;
+  font-size:30px;
+  text-shadow:0px 0px 5px #fff,
+    0px 0px 7px #ff0000;
+  text-shadow:0px 0px 10px #fff,
+       0px 0px 10px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 25px #fff,
+       0px 0px 50px #fff,
+       0px 0px 50px #fff,
+       0px 0px 50px #009921,
+       0px 0px 150px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921,
+       0px 10px 100px #009921;
 }
 
 #container .imagen1 img{
@@ -101,14 +130,6 @@ body{
   height:101%;
 }
 #container .imagen2 img{
-  width: 101%;
-  height: 101%;
-}
-#container .imagen3 img{
-  width: 100%;
-  height: 101%;
-}
-#container .imagen4 img{
   width: 101%;
   height: 101%;
 }
